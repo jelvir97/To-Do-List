@@ -1,0 +1,41 @@
+body {
+    background-color: azure;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    width: 60%;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+
+.done{
+    color: gainsboro;
+    text-decoration: line-through;
+}
+
+li:hover{
+    background-color: turquoise;
+    
+}
+li::marker{
+    content: '◎ ';
+    font-size: 1.2rem;
+    color: red;
+}
+
+/* .done:hover{
+    background-color: black;
+    color:darkorange;
+} */
+
+.done::marker{
+    content: '✓  ';
+    font-size: 1.2rem;
+    color: green;
+}
